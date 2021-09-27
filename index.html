@@ -1,67 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!--Head Required Tag-->
 <head>
+    <!--Required Meta Tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap 5 CSS Content Delivery Network (CDN)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--Custom Style Sheet-->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!--Page/Tab Title-->
     <title>Hello, Coder Foundry!</title>
+
 </head>
+
+
+<!--Body Sectioning Root-->
 <body>
-    <!--Navigation Meta-->
-    <nav>
+    <!--Navbar Semantic-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="/index.html">
+                <img src="/img/cf-little.png" class="navbar-brand little-logo"/>
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
 
-    </nav>
+              <li class="nav-item">
+                <a class="nav-link" href="/marvellab.html">Marvel Lab</a>
+              </li>
 
-    <!--Main Meta-->
-    <main>
-        <!--Header Meta-->
-        <header>
-            <img src="/img/cf-big.png" class="adjust-img-size"/>
-            <h1>Coder Foundry - First Project</h1>
-        </header>
+              <li class="nav-item">
+                <a class="nav-link" href="/gridexample.html">Grid Example</a>
+              </li>
 
-        <!--About Meta-->
-        <section id="about">
-            <h3>This is an initial seed to provide a base for future CF projects.</h3>
-            <hr/>
-            <ul>
-                <li>
-                    Contains folders for js, css, and images
-                </li>
-                <li>
-                    Contains basic and various elements on index.html
-                </li>
-                <li>
-                    This is an unordered list, so here's some filler
-                </li>
-                <li>
-                    Add a <a href="/page2.html">link</a> to a second page for fun
-                </li>
-                <li>
-                    <a href="/page3.html">Marvel Fan Page Lab</a>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/gridexample2.html">Grid Example #2</a>
+              </li>
+              
             </ul>
-            <hr/>
-        </section>
+            
+          </div>
+        </div>
+      </nav>
 
-        <!--Content Meta-->        
-        <section id="content">
-            <p class="indent">
+
+    <!--Main Semantic-->
+    <main>
+
+        <div class="container-xxl border border-2 border-dark mt-2 p-2">
+            <!--Header Semantic-->
+            <header>
+                <img src="img/cf-big.png" class="logo center"/>
+                <hr>
+                <h1>Coder Foundry Project Seed</h1>
+            </header>
+
+            <!--About Section Semantic-->
+            <section id="about">
+                <h3>This is an initial seed to provide a base for future CF projects.</h3>            
+            </section>            
+
+        </div>
+
+        <div class="container-xxl mt-2">
+
+            <!--Content Section Semantic-->        
+            <section id="content">
+                <p class="indent">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-            </p>
-            <p class="indent">
+                </p>
+                <p class="indent">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut engjvjim ad minivjjjm veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-            </p>
-        </section>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+        </section>   
+
+        </div>       
+
+             
         
     </main>
 
+    <!--Footer Semantic-->
+    <footer>
+    </footer>
+
+    <!--Scripts-->
+    <!--Bootstrap 5 Script Content Delivery Network (CDN)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    
 </body>
-
-<!--Footer Meta-->
-<footer>
-
-</footer>
 </html>

@@ -1,13 +1,20 @@
+@font-face {
+    font-family: avenger;
+    src: url('AVENGEANCE\ HEROIC\ AVENGER.ttf');
+}
+
 body {
-    color: #fff;
-    background-color: #ed1d24;
+    color: rgb(243, 153, 69);
+    background-color: #8e5d9b;
     font-size: 1.2em;
     font-family: arial;
 }
 
-@font-face {
-    font-family: avenger;
-    src: url('AVENGEANCE\ HEROIC\ AVENGER.ttf');
+.marvel-body {
+    color: #fff;
+    background-color: #ed1d24;
+    font-size: 1.2em;
+    font-family: arial;
 }
 
 .headline {
@@ -31,6 +38,10 @@ body {
 
 .logo {
     max-width: 400px;
+}
+
+.little-logo {
+    max-width: 200px;
 }
 
 .image-adjust {
