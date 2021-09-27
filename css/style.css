@@ -1,12 +1,70 @@
 body {
-    color: #ec9706;
-    background-color: #62587c;
+    color: #fff;
+    background-color: #ed1d24;
+    font-size: 1.2em;
+    font-family: arial;
+}
+
+@font-face {
+    font-family: avenger;
+    src: url('AVENGEANCE\ HEROIC\ AVENGER.ttf');
+}
+
+.headline {
+    font-family: avenger;
+    font-size: 4em;
+    margin: 0;
+    color: #5d0306;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
 }
 
 .indent {
     text-indent: 40px;
 }
 
-.adjust-img-size {
-    max-width: 500px;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.logo {
+    max-width: 400px;
+}
+
+.image-adjust {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+table {
+    width: 50%;
+}
+
+.table-head {
+    color: #fff;
+    background-color: #000;
+    font-size: 1.5em;
+}
+
+.odd-row{
+    color: #fff;
+    background-color: #5d0306;
+}
+
+.even-row {
+    color: #fff;
+    background-color: #000;
+}
+
+#heroText{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    margin: 0;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px, 1px, #ec9706;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 }
