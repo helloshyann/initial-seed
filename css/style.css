@@ -1,0 +1,12 @@
+body {
+    color: #fff;
+    background-color: #00008B
+}
+
+.indent {
+    text-indent: 40px;
+}
+
+.adjust-img-size {
+    max-width: 500px;
+}
